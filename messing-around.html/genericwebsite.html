@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <style>
+        body {
+            margin: 0px;
+        }
+        img {
+            width: ;
+        }
+      
+header {
+    background-image: url('images/fox.jpg'); 
+    background-size: cover; 
+    height: 500px;
+    background-position: 100% 10%;
+}
+
+a {
+    text-decoration: none;
+        }
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav ul {
+    display: flex;
+    background: rgba(255,255,255,0.6);
+    list-style: none;
+    padding: 0%;
+    margin: 0;
+}
+nav li {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    transition: 1s;
+}
+nav li:hover {
+    background: cornflowerblue;
+
+}
+li a {
+    font-size: large;
+    color:orangered
+}
+main{
+    padding: 80px 0;
+    background: cornflowerblue;
+    height: 800px;
+}
+/*li a:hover {color:blue;} */
+
+.flex{
+    padding: 60px;
+    display:flex;
+    width: 70%;
+    margin: auto;
+    background: white; 
+}
+.flex div{
+    flex:1;
+
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(243, 102, 41, 0.6);
+    color:white;
+    padding: 60px 100px 40px 100px;
+}
+.left {
+    display: flex;
+}
+.left article {
+    flex:1;
+}
+.right {
+    padding-left: 60px;
+}
+.feature-img {
+    padding: ;
+}
+main {
+div {position:absolute; 
+    background: #000; 
+    opacity:.07; width:50px; height:50px; 
+    border-radius:50px; top:50%; left:50%; 
+    animation: pulse .5s cubic-bezier(.51,0,0.4,.5) 
+    alternate infinite; transform: translate(-50%,-50%) 
+    scale(1);  }
+
+@keyframes pulse {
+  from { width:50px;height:50px; }
+  to { width:60px; height:60px; }
+}
+
+div.active { animation:bounce .5s ease; }
+@keyframes bounce {
+ 
+ 100%{ transform: translate(-50%,-50%) scale(2); opacity:0; }
+  0%{ transform: translate(-50%,-50%) scale(1); opacity:1; }
+} /*---end keyframes
+
+
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                
+            
+
+            </ul>
+        </nav>
+    </header>
+    <main> 
+        <section class="flex">
+            <div class="left">
+                <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque ad hic odio. Iure obcaecati, aperiam id optio tempore iste?
+            </p>
+        </article>
+        <article>
+            <img class="feature-img"src="http://placekitten.com/400/500" alt=""/>
+        </article>
+        </div>
+            <div class="right">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aliquam magnam dignissimos architecto autem soluta cumque at quidem eligendi! Esse labore quasi doloremque ducimus id sint inventore, debitis odit at?
+                </p>
+            </div>
+            
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy;Taylor Nobriga 2023</p>
+    </footer>
+</body>
+</html>

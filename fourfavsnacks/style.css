@@ -1,0 +1,36 @@
+*{box-sizing: border-box;}
+h1 { 
+color: rgb(0, 0, 0);    
+font-family: 'Unlock';
+font-size: 60px;
+} 
+img {
+    width:100%;
+}
+#main-header{
+    text-align: center;
+    font-family: 'Lilita One';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+    letter-spacing: 0.055em;
+    background-color: rgb(238, 0, 0);
+    color: white;
+    padding: 25px;
+}
+body {
+    background-color:#EDBE41;
+    font-family: 'Unlock';
+}
+#main-footer{
+    text-align: center;
+    font-size: 18px;
+}
+.home-page nav { 
+    display:flex;
+    flex-wrap: wrap;
+}
+.home-page nav div {
+    flex:50%;
+font-size: 40px;
+}

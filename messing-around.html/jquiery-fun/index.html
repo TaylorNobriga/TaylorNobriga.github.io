@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Query</title>
+<style> 
+.button {
+    padding: 16px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.content {
+font-size: 40px;
+display: block;
+}
+.hide {
+display: none;
+}
+</style>
+</head>
+<body>
+    <p class="button">Im a button</p>
+    <p class="Im some content"
+<a class="swap" href="#">swap image</a>
+    <img class="kitty-swap" src="http://placekitten.com/jquery.com/200/200"/>
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script>
+    $('.swap').hover(function () {
+        $('.kitty-swap').attr('src', 'http://placekitten.com/jquery.com/201/202')
+    })
+$('.button').click(function(){
+    $('.content').toggleClass('hide');
+});
+</script>
+</body>
