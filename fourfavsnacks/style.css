@@ -17,10 +17,13 @@ font-size: 45px;
     background-color: rgb(238, 0, 0);
     color: white;
     padding: 25px;
+    border: 1px solid black;
+
 }
 body {
     background-color:#EDBE41;
     font-family: 'Unlock';
+    margin:0;
 }
 #main-footer{
     text-align: center;
@@ -29,8 +32,23 @@ body {
 .home-page nav { 
     display:flex;
     flex-wrap: wrap;
+    width: 85%;
+    margin: auto; 
 }
 .home-page nav div {
     flex:50%;
 font-size: 40px;
+}
+.home-page a {
+    display: flex; 
+    align-items: center;
+    color:black;
+    text-decoration: none;
+}
+.home-page nav img {
+    width: 45%;
+}
+.home-page .about {
+width: 85%;
+margin: auto;
 }
