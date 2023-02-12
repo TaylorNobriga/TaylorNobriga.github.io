@@ -17,7 +17,7 @@ font-size: 45px;
     background-color: rgb(238, 0, 0);
     color: white;
     padding: 25px;
-    border: 1px solid black;
+    border: 3px solid black;
 
 }
 body {
@@ -52,3 +52,22 @@ font-size: 40px;
 width: 85%;
 margin: auto;
 }
+.tabs {
+    overflow: hidden;
+    border: 1px solid black;
+    background-color:rgb(238, 0, 0);
+    position: absolute;
+}
+.tab button {
+    background-color: inherit;
+    float: center;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: 'Lilita One';
+    font-size: 24px;
+  }
+.tab button:hover {
+box-shadow: inset 0px 4px 4px rgba(18, 99, 221, 0.25);
+}
+
