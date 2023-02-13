@@ -29,6 +29,22 @@ body {
     text-align: center;
     font-size: 18px;
 }
+.flex {
+    display:flex;
+    width: 70%;
+    margin: auto;
+    padding: 40%;
+    
+}
+.flex.div {
+    flex:-1;
+}
+.left {
+    display: flex;
+}
+.left article {
+    flex: -1;
+}
 .home-page nav { 
     display:flex;
     flex-wrap: wrap;
@@ -48,6 +64,9 @@ font-size: 40px;
 .home-page nav img {
     width: 45%;
 }
+.sub-page nav img {
+    width:50%
+}
 .home-page .about {
 width: 85%;
 margin: auto;
@@ -63,6 +82,7 @@ margin: auto;
     float: center;
     cursor: pointer;
     padding: 14px 16px;
+    justify-content: space-around;
     transition: 0.3s;
     font-family: 'Lilita One';
     font-size: 24px;
@@ -70,4 +90,13 @@ margin: auto;
 .tab button:hover {
 box-shadow: inset 0px 4px 4px rgba(18, 99, 221, 0.25);
 }
+.sub-page .history {
 
+position: absolute;
+width: 423px;
+height: 586px;
+left: 854px;
+top: 670px;
+width: 70%;
+margin:auto;
+} 
