@@ -1,15 +1,30 @@
 *{box-sizing: border-box;}
-h1 { 
-color: rgb(0, 0, 0);    
-font-family: 'Unlock';
-font-size: 60px;
+h1 {    
+font-family: 'Lilita One';
+font-size: 80px;
+line-height: 146px;
+text-align: center;
+letter-spacing: 0.055em;
+color: #FFFFFF;
 } 
 img {
     width:100%;
 }
+h2 {
+    font-family: 'Unlock';
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+}
+h3 {
+    font-family: 'Unlock';
+    font-size: 64px;
+    font-weight: 400;
+    color: black;
+}
 #main-header{
     text-align: center;
-    font-family: 'Lilita One';
+    font-family: 'AbeeZee';
 font-style: normal;
 font-weight: 400;
 font-size: 45px;
@@ -22,7 +37,7 @@ font-size: 45px;
 }
 body {
     background-color:#EDBE41;
-    font-family: 'Unlock';
+    font-family: 'Nunito';
     margin:0;
 }
 #main-footer{
@@ -57,7 +72,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    flex:50%;
+    flex:40%;
 font-size: 40px;
 }
 .home-page nav div span {
@@ -79,10 +94,20 @@ font-size: 40px;
 width: 85%;
 margin: auto;
 }
+.abtext {
+    font-family: 'AbeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: 0.055em;
+    color: black;
+}
 .tabs {
     display:flex;
     justify-content: space-around;
     margin-top:40px;
+    font-family:'Lilita One';
+    letter-spacing: 0.08em;
 }
 .tabs a {
     color: white;
