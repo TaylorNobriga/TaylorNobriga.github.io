@@ -1,0 +1,68 @@
+h1 {
+    font-family: 'Avenir Next';
+font-style: bold;
+font-weight: 700;
+font-size: 90px;
+}
+
+h2 {
+    font-family:'Signika', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #086C70;
+}
+
+
+body {
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+    scrollbar-width: 0;
+}
+
+.home-page nav { 
+    display:flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 100px auto; 
+}
+.home-page nav div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs {
+    display:flex;
+    justify-content: space-around;
+    margin-top:40px;
+    letter-spacing: 0.08em;
+}
+.tabs a {
+    padding:10px;
+border-radius: 3px;
+text-decoration: none;
+}
+
+.slider {
+    width: 100vw;
+    height: 500px;
+    overflow:hidden;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+ 
+  
+  .slide-content img {
+    width: 100%;
+  }
+  
+  
+  /* for Sam G only */
+  .slick-slide {
+    margin: 8px;
+    width: 220px;
+  }
