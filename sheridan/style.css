@@ -3,6 +3,7 @@ h1 {
 font-style: bold;
 font-weight: 700;
 font-size: 90px;
+text-align: center;
 }
 
 h2 {
@@ -20,6 +21,7 @@ body {
     color: black;
     margin: 0;
     scrollbar-width: 0;
+    background-color: #F9EAED;
 }
 
 .home-page nav { 
@@ -48,7 +50,7 @@ text-decoration: none;
 
 .slider {
     width: 100vw;
-    height: 500px;
+    height: 664px;
     overflow:hidden;
     margin: 0 auto;
     padding-top: 20px;
