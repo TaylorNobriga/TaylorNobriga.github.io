@@ -4,6 +4,7 @@ font-style: bold;
 font-weight: 700;
 font-size: 90px;
 text-align: center;
+margin: 0;
 }
 
 h2 {
@@ -11,7 +12,22 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     color: #086C70;
-    text-align: center;
+    text-align: left;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    padding-left: 20px;
+    margin: auto;
+    width: 1000px;
+}
+.about-title{
+    flex:2;
+}
+.about-text{
+    flex:1;
 }
 
 body {
@@ -19,12 +35,38 @@ body {
     font-size: 16px;
     font-weight: 400;
     color: black;
-    margin: 0;
+    margin: auto;
     scrollbar-width: 0;
-    background-color: #F9EAED;    
+    background-color: #F9EAED;   
 
 }
 
+p {
+    margin: auto;
+    width: 800px;
+
+}
+
+.deli-menu {
+    text-align: center;
+    justify-content: right;
+    margin-left: 40%;
+
+}
+.sal-menu {
+    text-align: left;
+    justify-content: center;
+line-height: 10mm;
+padding-left: 30%;
+padding-right: 30%;
+}
+.sal-price {
+    text-align: right;
+    justify-content: center;
+line-height: 10mm;
+padding-left: 30%;
+padding-right: 30%;
+}
 
 .home-page nav { 
     display:flex;
