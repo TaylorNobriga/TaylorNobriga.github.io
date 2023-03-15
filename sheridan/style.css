@@ -16,16 +16,23 @@ h2 {
     font-size: 36px;
     font-style: bold;
     color: #086C70;
-    text-align: left;
+    text-align: center;
 }
-
+h3 {
+  font-family:'Signika', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  font-style: bold;
+  color: #086C70;
+  text-align: left;
+}
 .about-content {
     display: flex;
     justify-content: space-around;
     align-items: left;
     padding-left: 20px;
     margin: auto;
-    width: 1000px;
+    width: 70vw;
 }
 .about-title{
     flex:2;
@@ -47,8 +54,18 @@ body {
 
 p {
     margin: auto;
-    width: 800px;
+    width: 700px;
 
+}
+.parent {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
 }
 
 .deli-menu {
@@ -152,8 +169,40 @@ aside {
   }
   
   
-  /* for Sam G only */
+ 
   .slick-slide {
     margin: 8px;
     width: 220px;
   }
+
+  .deli-slider {
+    width: 20vw;
+    height: 550px;
+    overflow:hidden;
+    margin: 0 auto;
+    margin-left: 100px;
+    padding-top: 20px;
+  }
+ 
+  
+  .delislide-content img {
+    width: 100%;
+  }
+  
+  .float-parent-element { 
+    width: 50%; 
+} 
+.float-child-element { 
+    float: left; 
+    width: 50%; 
+} 
+.entrees { 
+    margin-left: 80%; 
+    height: 100px; 
+    width: 300px
+} 
+.prices { 
+    margin-left: 80%; 
+    height: 8px; 
+    width: 300px
+}
