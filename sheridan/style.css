@@ -48,7 +48,7 @@ body {
     color: black;
     margin: auto;
     scrollbar-width: 0;
-    background-color: #F9EAED;   
+    background-color: #F9EAED;  
 
 }
 
@@ -205,4 +205,8 @@ aside {
     margin-left: 80%; 
     height: 8px; 
     width: 300px
+}
+
+.vendors {
+  text-decoration: none;
 }
