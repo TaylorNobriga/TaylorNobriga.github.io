@@ -323,13 +323,13 @@ text-align:center;
     }
   
     .menu-mobile {
-      background-color: #edbebe;
+      background-color: #36746d;
       height: 100vh;
       position: fixed;
       width: 100%;
       z-index: 999;
       padding-top: 150px;
-      font-family: 'Helvetica', sans-serif;
+      font-family: 'Avenir Next';
       text-align: center;
       margin-left:-50px;
     }
@@ -343,7 +343,7 @@ text-align:center;
     .menu-mobile a {
       clear: right;
       text-decoration: none;
-      color: #333;
+      color: rgb(255, 252, 252);
       height: 70px;
       line-height: 70px;
     }
