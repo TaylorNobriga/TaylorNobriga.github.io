@@ -68,19 +68,28 @@ p {
   padding: 1rem 1rem;
   vertical-align: middle;
 }
+.deli-page .menu-flex; {
+display: flex;
+}
+
+.deli-page .menu-flex .right {
+  flex: 75%;
+  }
+
+  .deli-page .menu-flex .left {
+    flex: 25%;
+    }
 
 .deli-menu {
     text-align: center;
     justify-content: right;
-    margin-left: 40%;
+   
 
 }
 .sal-menu {
     text-align: left;
     justify-content: center;
 line-height: 10mm;
-padding-left: 30%;
-padding-right: 30%;
 }
 .sal-price {
     text-align: right;
@@ -175,11 +184,8 @@ aside {
   }
 
   .deli-slider {
-    width: 20vw;
-    height: 550px;
     overflow:hidden;
     margin: 0 auto;
-    margin-left: 100px;
     padding-top: 20px;
   }
  

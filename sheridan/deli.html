@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deli & Catering Services</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" 
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap"> 
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head> 
 <header id="main-header">
-    <body class="home-page">
+    <body class="deli-page">
         <div class="branding">
             <div class="logo">
                 <a href="index.html"><img src="images/sheridanstrawlogo.png"alt="logo pic"></a>
@@ -29,8 +29,8 @@
             </nav>
           </div>
           <main>
-
-            <div class="deli-slider">
+<section class="menu-flex"></section>
+            <div class=" -slider">
                 <div class="delislide-content">
                         <img src="images/soup.jpg"/>
                 </div>
@@ -41,11 +41,10 @@
                         <img src="images/mario-raj-S8bWZj3yJkU-unsplash.jpg"/>		
                 </div>
             </div>
-   <article class="deli-menu">
+   <article class="deli-menu deli-right">
     <h1>DELI MENU</h1>
     <h2>March 1, 2023</h2>
     <h2><font color="#C82127">Entrees</font></h2>
-    <body>
 <br>
 Spaghetti with Meat Sauce $12.99/lb. 
 <br>
@@ -62,8 +61,9 @@ Four Cheese Mac & Cheese ​$12.99/lb​​
     <br>
 No soup today
     <h2><font color="#C82127">Salads</font></h2>
-All Salads are $11.99/lb</body>
+All Salads are $11.99/lb
 </article>
+</section>
 <h1>​Salvatore's Grill At Sheridan Menu</h1>
 <h2>Open: Monday thru Friday ​from 11am - 3pm</h2>
 <h2><font color="#C82127">Entrees, Burger &​ Sandwiches</font></h2>\<p>All sandwiches are served with chips and come with your choice of cheese, lettuce and tomato</p>
@@ -145,10 +145,11 @@ crossorigin="anonymous"></script>
 // Your Code from here on down. Don't delete that line above!
 
 // code for single slider carousel
-$('.single-slide').slick({
+$('.deli-slider').slick({
 slidesToShow: 1,
 slidesToScroll: 1,
 autoplay: true,
+speed: 300,
 autoplaySpeed: 1500,
 infinite: true,
 dots: true,
