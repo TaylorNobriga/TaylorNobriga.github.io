@@ -70,8 +70,7 @@ p {
   padding: 1rem 1rem;
   vertical-align: middle;
 }
-<<<<<<< HEAD
-.deli-page .menu-flex; {
+.deli-page .menu-flex {
 display: flex;
 }
 
@@ -87,31 +86,11 @@ display: flex;
     text-align: center;
     justify-content: right;
    
-
 }
 .sal-menu {
     text-align: left;
     justify-content: center;
 line-height: 10mm;
-=======
-.deli-page .menu-flex {
-  display: flex;
-}
-.deli-page .menu-flex .right {
-  flex: 75%;
-}
-.menu-flex .left {
-  flex: 25%;
-}
-.deli-menu {
-  text-align: center;
-  justify-content: right;
-}
-.sal-menu {
-  text-align: left;
-  justify-content: center;
-  line-height: 10mm;
->>>>>>> 1c15c9e3485651181a28dd5990bce5ecd5a18bc0
 }
 .sal-price {
   text-align: right;
@@ -212,12 +191,13 @@ aside {
 .entrees { 
     margin-left: 70%; 
     height: 100px; 
-    width: 300px
+    width: 300px;
 } 
 .prices { 
     margin-left: 90%; 
     height: 8px; 
-    width: 300px
+    width: 300px;
+}
 .slide-content img {
   width: 100%;
 }
