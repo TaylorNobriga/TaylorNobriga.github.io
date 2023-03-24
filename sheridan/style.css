@@ -72,14 +72,17 @@ p {
 }
 .deli-page .menu-flex {
 display: flex;
+border: 1px seagreen;
 }
 
 .deli-page .menu-flex .right {
   flex: 75%;
+  border:1px solid orange;
   }
 
   .deli-page .menu-flex .left {
     flex: 25%;
+    border:1px solid orange;
     }
 
 .deli-menu {
@@ -395,3 +398,9 @@ aside {
     grid-template-columns: 1fr;
   }
 }
+
+.a {
+    
+  animation: pulse 1s linear infinite;
+}
+
