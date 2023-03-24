@@ -1,5 +1,10 @@
-.flex-container {
+.flexbox-container {
+height: 800px;
 display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+align-content: ;
 }
 
 .flexbox-item {
@@ -16,7 +21,7 @@ display: flex;
 .flexbox-item-2 {
     min-height: 200px;
 }
-
+  
 .flexbox-item-3 {
     min-height: 300px;
 }
